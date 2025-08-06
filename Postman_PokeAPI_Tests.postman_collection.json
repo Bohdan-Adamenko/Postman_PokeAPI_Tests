@@ -8,7 +8,7 @@
 	},
 	"item": [
 		{
-			"name": "Успешный GET-запрос",
+			"name": "Positive GET Request",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -30,7 +30,7 @@
 			"response": []
 		},
 		{
-			"name": "Негативный GET-запрос",
+			"name": "Negative GET Request",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -52,7 +52,7 @@
 			"response": []
 		},
 		{
-			"name": "GET-запрос с параметрами",
+			"name": "GET Request with Query Parameters",
 			"request": {
 				"method": "GET",
 				"header": [],
