@@ -1,19 +1,19 @@
-# Тестовый проект: Ручное тестирование API с помощью Postman
+# Test Project: Manual API Testing with Postman
 
-Этот проект демонстрирует навыки ручного тестирования REST API с использованием инструмента Postman. В качестве объекта тестирования использовался публичный PokéAPI.
+This project showcases manual REST API testing skills using Postman. The public PokéAPI was used as the testing target.
 
-## 🗂️ Описание коллекции
+## 🗂️ Collection Overview
 
-Коллекция содержит базовые smoke-тесты для эндпоинтов PokéAPI.
+This Postman collection contains basic smoke tests for the PokéAPI endpoints.
 
-### Тестовые сценарии:
-1.  **Успешный GET-запрос:** Проверка получения данных о конкретном существующем ресурсе (покемон `pikachu`). Ожидаемый результат: статус `200 OK`.
-2.  **Негативный GET-запрос:** Проверка обработки запроса к несуществующему ресурсу. Ожидаемый результат: статус `404 Not Found`.
-3.  **GET-запрос с параметрами:** Проверка работы с query-параметрами для ограничения выдачи (получение списка из 5 покемонов). Ожидаемый результат: статус `200 OK`.
+### Test Scenarios Covered:
+1.  **Positive GET Request:** Verifies fetching data for a specific, existing resource (the Pokémon `pikachu`). Expected Result: `200 OK` status.
+2.  **Negative GET Request:** Checks the error handling for a non-existent resource. Expected Result: `404 Not Found` status.
+3.  **GET Request with Query Parameters:** Validates the use of query parameters to limit the results (retrieving a list of 5 Pokémon). Expected Result: `200 OK` status.
 
-## 🛠️ Как использовать?
+## 🛠️ How to Use
 
-1.  Скачайте `.json` файл коллекции.
-2.  Откройте Postman.
-3.  Нажмите "Import" и выберите скачанный файл.
-4.  После импорта коллекция будет доступна для запуска тестов.
+1.  Download the `.json` collection file from this repository.
+2.  Open the Postman application.
+3.  Click the "Import" button and select the downloaded file.
+4.  Once imported, the collection will be available to run the tests.
